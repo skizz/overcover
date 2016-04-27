@@ -1,4 +1,14 @@
 #!/usr/bin/env ruby
 
 require "overcover"
-Overcover::RspecCollector.summarize
+
+if ARGV[0]
+  f = ARGV[0]
+  if f =~ /_spec.rb/
+    Overcover::Reporter.analyse_spec(f)
+  else
+    Overcover::Reporter.analyse_file(f)
+  end
+else
+  Overcover::Reporter.summarize
+end
