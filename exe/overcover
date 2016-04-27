@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require "overcover"
+Overcover::RspecCollector.summarize
