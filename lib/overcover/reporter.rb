@@ -35,9 +35,6 @@ module Overcover
         covers << hash[:files]
         @specs[spec_file] = covers.flatten.uniq
       end
-      # open('overcover_summary.yaml', 'w') do |f|
-      #   f.puts Psych.dump(@specs)
-      # end
       @specs
     end
 
@@ -83,7 +80,10 @@ module Overcover
       reverse[f].each do |cover|
         puts "    #{cover}"
       end
+    end
 
+    def specs_for(f)
+      reverse[f]
     end
 
     class << self
