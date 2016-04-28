@@ -29,7 +29,8 @@ module Overcover
 
     def analyse
       @specs = {}
-      Psych.load_stream(File.read('overcover.log')) do |hash|
+      return unless File.exists?(Overcover::RspecCollector.log_file)
+      Psych.load_stream(File.read(Overcover::RspecCollector.log_file)) do |hash|
         spec_file = hash[:spec]
         covers = @specs[spec_file] || []
         covers << hash[:files]

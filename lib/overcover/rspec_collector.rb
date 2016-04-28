@@ -51,11 +51,16 @@ module Overcover
       def after(example)
         trace.disable
         result = { spec: @in_spec, files: @files.to_a }
-        open('overcover.log', 'a') do |f|
+        open(log_file, 'a') do |f|
           f.puts YAML.dump(result)
         end
         @files = nil
         @in_spec = nil
+      end
+
+      def log_file
+        return  File.join(ENV["SNAP_CACHE_DIR"], 'overcover.log').to_s if ENV["SNAP_CACHE_DIR"]
+        'overcover.log'
       end
 
     end
