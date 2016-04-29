@@ -7,27 +7,41 @@ module Overcover
 
     def initialize(context)
       @context = context
-      Coverage.start unless @started
-    end
-
-    def before(example)
-      # puts "BEFORE #{example}"
-      @in_spec = example
+      @counts = {}
       Coverage.start unless @started
       @started = true
     end
 
+    def before(example)
+      @in_spec = example
+      # puts "Calling Coverage.start"
+      # Coverage.start unless @started
+      # @started = true
+    end
+
     def after(example)
-      # puts "AFTER #{example}"
-      coverage = Coverage.result
-      # p coverage
-      paths = coverage.keys.map { |f| f.sub(root_path, ".") }
-      files = paths.select { |path| @context.should_analyse?(path) }
+      return unless @started
+
+      coverage = Coverage.peek_result
+      # @started = false
+
+      files = []
+      coverage.each_pair do |file, line_counts|
+        path = file.sub(root_path, ".")
+        if @context.should_analyse?(path)
+          count = @counts[path] || 0
+          new_count = line_counts.inject(0) {|sum, val| val.nil? ? sum : sum+val }
+          if new_count > count
+            # puts "    #{new_count - count} #{path}"
+            files << path
+          end
+          @counts[path] = new_count
+        end
+      end
       result = { spec: @in_spec, files: files }
       @context.record(result)
+
       @in_spec = nil
-    ensure
-      @started = false
     end
 
     def root_path

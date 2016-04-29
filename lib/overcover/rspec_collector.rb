@@ -48,15 +48,24 @@ module Overcover
 
         RSpec.configure do |config|
           # overcover
-          config.before(:each) do |example|
+          config.before(:example) do |example|
+            # puts "BEFORE #{example} #{example.location}"
+            # puts "puts pid=#{Process.pid}"
             file = example.file_path.sub(root_path, ".")
             collector.before(file)
           end
 
-          config.after(:each) do |example|
+          config.after(:example) do |example|
+            # puts "AFTER #{example} #{example.location}"
+            # puts "puts pid=#{Process.pid}"
             file = example.file_path.sub(root_path, ".")
             collector.after(file)
           end
+
+          config.after(:suite) do |suite|
+            Overcover::Reporter.summarize
+          end
+
         end
 
       end
