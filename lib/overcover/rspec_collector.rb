@@ -15,33 +15,44 @@ module Overcover
         paths.empty? || paths.any? {|p| path.start_with?(p) }
       end
 
-      def set_log_file(filename)
-        @log_file = filename
-      end
-
       def add_filter(filter)
         paths << filter
       end
 
-      def log_file
-        @log_file ||= 'overcover.log'
-      end
-
       def reset
-        File.delete(log_file) if File.exists?(log_file)
+        puts "[overcover] deleting log files in #{dir}"
+        log_files.each do |f|
+          File.delete(f)
+        end
       end
 
       def record(result)
-        open(log_file, 'a') do |f|
+        open(@log_file, 'a') do |f|
           f.puts Psych.dump(result)
         end
       end
 
+      def dir
+        ENV["OVERCOVER_DIR"] || "."
+      end
+
+      def log_files
+        files = Dir.glob(File.join(dir, "overcover.*.tmp"))
+        if block_given?
+          files.each do |f|
+            yield f
+          end
+        end
+        files
+      end
+
       def start
 
-        @log_file = 'overcover.log'
+        @log_file = File.join(dir ,"overcover.#{Time.now.utc.strftime("%Y%m%d%H%M%S%N")}.tmp")
 
         yield self if block_given?
+
+        puts "[overcover] writing to log file #{@log_file}"
 
         collector = CoverageCollector.new(self)
         root_path = Dir.pwd.to_s
