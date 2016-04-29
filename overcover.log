@@ -1,0 +1,201 @@
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/set.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/syntax.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/expectation_target.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/monitor.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/be.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/base_matcher.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/handler.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/set.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/syntax.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/expectation_target.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/monitor.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/be.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/base_matcher.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/handler.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/set.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/syntax.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/expectation_target.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/core_ext/kernel_require.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/monitor.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/2.3.0/rubygems/specification.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/be.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/built_in/base_matcher.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/expectations/handler.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-expectations-3.4.0/lib/rspec/matchers/generated_descriptions.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/configuration.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example_group.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/metadata_filter.rb"
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files:
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/hooks.rb"
+- "/Users/skizz/.rbenv/versions/2.3.1/lib/ruby/gems/2.3.0/gems/rspec-core-3.4.4/lib/rspec/core/example.rb"
+- "./spec/overcover/rspec_collector_spec.rb"
+- "./lib/overcover/rspec_collector.rb"
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover/rspec_collector_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []
+---
+:spec: "./spec/overcover_spec.rb"
+:files: []

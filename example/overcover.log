@@ -1,0 +1,20 @@
+---
+:spec: "./spec/sample_spec.rb"
+:files:
+- "./lib/sample.rb"
+---
+:spec: "./spec/sample_spec.rb"
+:files:
+- "./lib/sample.rb"
+---
+:spec: "./spec/sample_spec.rb"
+:files:
+- "./lib/sample.rb"
+---
+:spec: "./spec/sample_spec.rb"
+:files:
+- "./lib/sample.rb"
+---
+:spec: "./spec/sample_spec.rb"
+:files:
+- "./lib/sample.rb"

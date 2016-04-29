@@ -15,12 +15,20 @@ module Overcover
         paths.empty? || paths.any? {|p| path.start_with?(p) }
       end
 
-      def log_file(filename)
+      def set_log_file(filename)
         @log_file = filename
       end
 
       def add_filter(filter)
         paths << filter
+      end
+
+      def log_file
+        @log_file ||= 'overcover.log'
+      end
+
+      def reset
+        File.delete(log_file) if File.exists?(log_file)
       end
 
       def start
@@ -31,11 +39,11 @@ module Overcover
 
         RSpec.configure do |config|
           # overcover
-          config.before(:example) do |example|
+          config.before(:each) do |example|
             Overcover::RspecCollector.before(example)
           end
 
-          config.after(:example) do |example|
+          config.after(:each) do |example|
             Overcover::RspecCollector.after(example)
           end
         end
