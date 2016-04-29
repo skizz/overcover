@@ -31,57 +31,34 @@ module Overcover
         File.delete(log_file) if File.exists?(log_file)
       end
 
+      def record(result)
+        open(log_file, 'a') do |f|
+          f.puts Psych.dump(result)
+        end
+      end
+
       def start
 
         @log_file = 'overcover.log'
 
         yield self if block_given?
 
+        collector = TraceCollector.new(self)
+        root_path = Dir.pwd.to_s
+
         RSpec.configure do |config|
           # overcover
           config.before(:each) do |example|
-            Overcover::RspecCollector.before(example)
+            file = example.file_path.sub(root_path, ".")
+            collector.before(file)
           end
 
           config.after(:each) do |example|
-            Overcover::RspecCollector.after(example)
+            file = example.file_path.sub(root_path, ".")
+            collector.after(file)
           end
         end
 
-      end
-
-      def trace
-        if @trace.nil?
-          @trace = TracePoint.new(:line) do |tp|
-            path = tp.path.sub(root_path, ".")
-            record path if should_analyse? path
-          end
-        end
-        @trace
-      end
-
-      def root_path
-        Dir.pwd.to_s
-      end
-
-      def before(example)
-        @in_spec = example.file_path.sub(root_path, ".")
-        @files = Set.new
-        trace.enable
-      end
-
-      def record(path)
-        @files << path if @files
-      end
-
-      def after(example)
-        trace.disable
-        result = { spec: @in_spec, files: @files.to_a }
-        open(@log_file, 'a') do |f|
-          f.puts Psych.dump(result)
-        end
-        @files = nil
-        @in_spec = nil
       end
 
     end
