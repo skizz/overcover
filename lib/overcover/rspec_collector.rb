@@ -43,7 +43,7 @@ module Overcover
 
         yield self if block_given?
 
-        collector = TraceCollector.new(self)
+        collector = CoverageCollector.new(self)
         root_path = Dir.pwd.to_s
 
         RSpec.configure do |config|
