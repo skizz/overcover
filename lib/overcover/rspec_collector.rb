@@ -46,6 +46,10 @@ module Overcover
         files
       end
 
+      def log_file
+        @log_file
+      end
+
       def start
 
         @log_file = File.join(dir ,"overcover.#{Time.now.utc.strftime("%Y%m%d%H%M%S%N")}.tmp")
