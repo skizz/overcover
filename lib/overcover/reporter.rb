@@ -56,12 +56,12 @@ module Overcover
       puts "    #{file_report.count} files analysed"
 
       puts "Specs covering the most files:"
-      spec_report.each do |f|
+      spec_report.take(10).each do |f|
         puts "    #{f[:file]} #{f[:count]} "
       end
 
       puts "Files covered by the most specs:"
-      file_report.each do |f|
+      file_report.take(10).each do |f|
         puts "    #{f[:cover]} #{f[:count]} "
       end
 

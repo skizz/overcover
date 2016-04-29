@@ -6,7 +6,7 @@ module Overcover
 
       def on_hook(sample = false)
         # find files changed in the last 5 days
-        git_log = `git log --pretty="format:" --since="5 days ago" --name-only`
+        git_log = `git log --pretty="format:" -1 --name-only`
         files = git_log.split("\n")
         files.uniq!
 

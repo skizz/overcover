@@ -58,7 +58,13 @@ module Overcover
 
         puts "[overcover] writing to log file #{@log_file}"
 
-        collector = CoverageCollector.new(self)
+        if CoverageCollector.supported?
+          collector = CoverageCollector.new(self)
+        else
+          puts "[overcover] WARNING: Using the slow TraceCollector since this version of ruby"
+          puts "[overcover] does not support Coverage.peek_result. Use MRI 2.3+ for faster results."
+          collector = TraceCollector.new(self)
+        end
         root_path = Dir.pwd.to_s
 
         RSpec.configure do |config|

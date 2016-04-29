@@ -5,9 +5,24 @@ module Overcover
 
   class CoverageCollector
 
+    class << self
+
+      def supported?
+        begin
+          Coverage.method(:peek_result)
+        rescue => e
+          puts "[overcover] Overcover Coverage support requires ruby 2.3+"
+          puts "[overcover] Coverage.peek_result does not exist in this version of ruby"
+          return false
+        end
+      end
+
+    end
+
     def initialize(context)
       @context = context
       @counts = {}
+
       Coverage.start unless @started
       @started = true
     end
